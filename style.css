@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1572339152622-ce5e57956129?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fHRlbXBlcmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#container
+{
+  color: rgb(11, 92, 88);
+  font-size: 45px;
+}
+h1{
+  margin-top: 50px;
+  text-shadow: 0px 1px 1px rgb(255, 255, 255);
+  opacity: 1;
+  margin-bottom: 40px;
+}
+.Text
+{
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px -1px 1px rgb(0, 0, 0);
+  font-size: 25px;
+}
+#result {
+  font-weight: bold;
+  color: rgb(255, 9, 9);
+  text-shadow: 0px 1px 2px black;
+}
+#celsius
+{
+  border-radius: 6px;
+  border: 1px solid black;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+#fahrenheit
+{
+  border: 1px solid black;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 8px;
+
+}
+button{
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(44, 74, 225);
+  margin: 20px 15px;
+  padding: 8px 6px;
+  font-weight: bold;
+}
+button:hover
+{
+  cursor: pointer;
+  background-color: rgb(201, 134, 11);
+  
+}
+img
+{
+  position: relative;
+top: 191px;
+left: -101px;
+height: 234px;
+}
